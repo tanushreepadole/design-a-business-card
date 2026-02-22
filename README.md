@@ -1,1 +1,92 @@
 # design-a-business-card
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<div class="business-card">
+    <img  class="profile-image" 
+    src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg"
+     alt="A beautiful flower profile picture" width="240px">
+
+     <p class="full-name">Tanu padole</p>
+      <p class="designation">Boss</p>
+       <p class="company">padole's</p>
+       <hr>
+       <p>tanushreepadole888@gmail.com</p>
+       <p>9422134800</p>
+       
+       <a
+        class="portfolio-link"
+        href="https://www.linkedin.com/in/tanushreepadole888">Portfolio</a>
+        <hr>
+     
+     <div class="social-media">
+         <h2>Connect with me</h2>
+         <a href="https://www.linkedin.com/in/tanushreepadole888">Twitter</a>
+                  
+                  <a href="https://www.linkedin.com/in/tanushreepadole888">LinkedIn</a>
+                         
+                           <a href="https://www.linkedin.com/in/tanushreepadole888" >GitHub</a>
+
+     </div>
+</body>
+
+</html>
+
+
+#css
+
+body{
+  background-color:rosybrown;
+  font-family: Arial,sans-serif;
+
+}
+
+.business-card{
+  width: 300px;
+  background-color: burlywood;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: bold; 
+}
+
+.profile-image{
+  max-width: 100%;
+
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a.visited{
+
+color:white;
+}
+
+hr{
+  border-color: brown;
+  
+
+}
